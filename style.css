@@ -1,26 +1,47 @@
 body {
   font-family: 'Poiret One', cursive;
   margin: 0;
+  background-color: #f4f2f3;
 }
 
 .main-box {
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.name-surname {
+  margin-right: 35px;
+  font-size: 11px;
+  margin-top: 45px;
+  font-style: italic;
+  color: #616161;
 }
 
 .information-box {
-  margin-right: 20px;
-  display: grid;
+  background-image: url(img/UNTLDWL_DETAIL3.jpeg);
+  background-size: cover;
+  height: 720px;
+  width: 1080px;
+  margin-top: 5px;
+  box-shadow: 1px 3px 8px 0px #c6c6c6;
+
 
 }
 
 .references-box {
-  bottom: 20px;
-  right: 20px;
+  text-align: right;
+  margin-top: 527px;
+  margin-right: 35px;
 }
 
 a {
   text-decoration: none;
-  color: grey;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+#work {
+  height: 50vh;
 }
