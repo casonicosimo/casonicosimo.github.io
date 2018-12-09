@@ -20,6 +20,7 @@ body {
   color: #616161;
   margin-right: 25px;
   display: grid;
+  z-index: 2;
 }
 
 .name-surname {
@@ -40,7 +41,7 @@ a {
 
 .work-img {
   height: 100vh;
-  min-width: 150vh;
+  min-width: 140vh;
 }
 
 #sampletext {
