@@ -22,6 +22,11 @@ body {
   display: grid;
 }
 
+.name-surname {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
 .references-box {
   text-align: right;
 }
