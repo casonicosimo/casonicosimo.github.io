@@ -1,61 +1,107 @@
-body {
-  font-family: 'Poiret One', cursive;
-  margin: 0;
-  background-color: #f4f2f3;
-  position: fixed;
-  overflow-y: scroll;
-  height: 100vh;
-  width: 100vw;
-}
+  body {
+    font-family: 'Poiret One', cursive;
+    margin: 0;
+    background-color: #f4f2f3;
+    position: fixed;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 100vw;
+  }
 
-.main-box {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.information-box {
-  font-style: italic;
-  color: #616161;
-  margin-right: 25px;
-  display: grid;
-  z-index: 2;
-}
-
-.name-surname {
-  margin-top: 10px;
-  font-size: 12px;
-}
-
-.references-box {
-  text-align: right;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  font-style: italic;
-  font-weight: bolder;
-}
-
-.work-img {
-  height: 100vh;
-  min-width: 140vh;
-}
-
-#sampletext {
-  position: absolute;
-  font : italic bold 60px arial;
-  color : #aaaaaa;
-  margin-top : 200px;
-}
+  .main-box {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
 
 
-#slideshow > div {
+  .information-box {
+    font-style: italic;
+    color: #616161;
+    margin-right: 25px;
+    display: grid;
+    z-index: 2;
+  }
+
+  .name-surname {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .fill {
+    height: 60vh;
+  }
+
+  .references-box {
+    text-align: right;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+  }
+
+  .work-img {
+    height: 100vh;
+    min-width: 140vh;
+  }
+
+  #sampletext {
     position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    font : italic bold 60px arial;
+    color : #aaaaaa;
+    margin-top : 200px;
+  }
+
+
+  #slideshow > div {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+  }
+
+
+@media(max-width: 1024px){
+
+  body {
+    position: absolute;
+  }
+
+  .main-box {
+  margin: 0;
+  display: block;
+  }
+
+  .work-img {
+  width: 100vw;
+  height: 70vw;
+  min-width: 100vw;
+  }
+
+  .fill {
+    height: 10vw;
+  }
+
+  .references-box {
+    text-align: center;
+    font-size: 1.85vw;
+  }
+
+  .email-link {
+      font-size: 1.45vw;
+    }
+
+  .name-surname {
+    text-align: center;
+    font-size: 2.5vw;
+  }
+
+  .information-box {
+    margin-bottom: 10vw;
+  }
 }
