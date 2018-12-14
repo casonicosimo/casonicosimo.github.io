@@ -19,7 +19,9 @@
     font-style: italic;
     color: #616161;
     margin-right: 25px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .name-surname {
