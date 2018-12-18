@@ -19,6 +19,7 @@
     font-style: italic;
     color: #616161;
     margin-right: 25px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -106,5 +107,6 @@
   .information-box {
     margin-bottom: 10vw;
     margin-right: 0;
+    margin-left: 0;
   }
 }
